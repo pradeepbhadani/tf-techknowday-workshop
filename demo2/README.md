@@ -1,3 +1,10 @@
+## Overview
+This example covers following concepts:
+*  Terraform Variables
+*  Terraform Outputs
+* Terraform Versions
+* AWS EC2 userdata
+
 ## How to run this example?
 
 1. Fill values in `env/example.tfvars`
