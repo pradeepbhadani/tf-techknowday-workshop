@@ -9,13 +9,11 @@ variable "region" {
   default     = "us-west-2"
 }
 
-
 variable "instance_type" {
   description = "Instance type"
   type        = "string"
   default     = "t2.micro"
 }
-
 
 variable "keypair" {
   description = "AWS Keypair"

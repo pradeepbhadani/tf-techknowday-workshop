@@ -9,5 +9,5 @@ provider "aws" {
 resource "aws_instance" "my_instance" {
   ami           = "ami-095cd038eef3e5074"
   instance_type = "t2.micro"
-  subnet_id     = "my-subnet-id-123" # Update this value with your subnet-id
+  subnet_id     = "my-subnet-id-123"      # Update this value with your subnet-id
 }
