@@ -30,7 +30,6 @@ TechKnowday Terraform workshop files
 ## Configure AWS
 Make sure to configure AWS credentials so that terraform can create/manage AWS resources.
 
-
 Create/Open `~/.aws/credentials` file and make sure it has access key and secret access key
 ```
 [demo]
@@ -39,6 +38,7 @@ output = json
 aws_access_key_id = <YOUR AWS ACCESS KEY ID>
 aws_secret_access_key = <YOUR AWS SECRET ACCESS KEY ID>
 ```
+
 
 ## Run Terraform
 **Running these(Terraform) examples may incur charge in AWS account.**
@@ -49,3 +49,7 @@ aws_secret_access_key = <YOUR AWS SECRET ACCESS KEY ID>
 3. Run `terraform plan -var-file=env/demo.tfvars` to see the plan (Let's say `demo.tfvars` is for `demo` environment)
 4. If happy with the plan, run `terraform apply -var-file=env/demo.tfvars`
 5. If want to **cleanup**(or **destroy** all resources created by this example terraform code), run `terraform destroy -var-file=env/demo.tfvars`
+
+
+## Slides
+[Terraform Workshop Slides](terraform_workshop.pdf)
