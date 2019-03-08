@@ -41,6 +41,7 @@ aws_secret_access_key = <YOUR AWS SECRET ACCESS KEY ID>
 ```
 
 ## Run Terraform
+**Running these(Terraform) examples may incur charge in AWS account.**
 
 1. Navigate to code directory (let's say `demo2/`)
 2. Put one `tfvars` file under `env` directory for each environment. (Refer `example.tfvars` file)
