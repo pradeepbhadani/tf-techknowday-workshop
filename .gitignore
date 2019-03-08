@@ -4,6 +4,8 @@
 *.plan
 *.backup
 *.tfstate.backup*
+demo*.tfvars
+.git
 
 # MAC
 .DS_Store
